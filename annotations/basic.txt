@@ -1,0 +1,3 @@
+typescript type system only helps during development, so its before the code gets compiled
+difference between typescript x javascript - javascript uses "dynamic types" so its resolved at runtime, and
+typescript uses "static types" so its resolved during development
