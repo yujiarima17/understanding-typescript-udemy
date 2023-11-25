@@ -1,3 +1,6 @@
 typescript type system only helps during development, so its before the code gets compiled
+----
 difference between typescript x javascript - javascript uses "dynamic types" so its resolved at runtime, and
 typescript uses "static types" so its resolved during development
+enum is efficient when we need to use "human" understanding for our variables
+types are useful when we use union types on our objects or function body parameters

@@ -1,15 +1,12 @@
-function add(n1:number,n2:number,showResult :boolean,phrase :string){
-    const result = n1 +n2;
-    if(showResult) {
-        console.log(phrase + result)
-  
-    }else{
-        return n1+n2
-    }  
+enum Role{
+    ADMIN,READ_ONLY,AUTHOR
 }
-const number1 = 5;
-const number2 = 5;
-const printResult = true;
-const resultPhrase = 'Result is:'
- add(number1,number2,printResult,resultPhrase);
- 
+const person ={
+    age:20,
+    name:'yuji',
+    hobbies :['Sports','Gaming'],
+    role : Role.ADMIN
+}
+if(person.role == Role.AUTHOR){
+    console.log('is author')
+}

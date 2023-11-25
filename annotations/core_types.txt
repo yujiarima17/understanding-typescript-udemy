@@ -1,4 +1,7 @@
-number - all numbers, no differentiation between integers or floats
-string - all text values ('hi',"hi",`hi`)
-boolean - logical values (false,true)
-object - {name:'yuji'}
+number -> all numbers, no differentiation between integers or floats
+string -> all text values ('hi',"hi",`hi`)
+boolean -> logical values (false,true)
+object -> {name:'yuji'}
+array -> [1,2,3]
+tuples -> [1,2] (non-existing type on javascript, its a fixed-length array)
+enum -> {NEW,OLD} (added by ts, enumerated global constants identifiers)
